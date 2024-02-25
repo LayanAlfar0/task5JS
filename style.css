@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #eee;
+    border-radius: 25px;
+    width: 300px;
+
+}
+
+.done {
+    text-decoration: line-through;
+    font-weight: 500;
+    color: #936aa2;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+.addedItems{
+    align-self: flex-start;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+.toDoForm input {
+    border-radius: 5px;
+    padding: 5px;
+}
+.toDoForm input[type=submit] {
+    background-color: #e6a6ff;
+}
+.addedItems input[type=checkbox]{
+    background-color: #936aa2;
+}
